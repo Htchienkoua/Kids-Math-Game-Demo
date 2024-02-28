@@ -73,6 +73,9 @@ class GameAdditionActivity : AppCompatActivity() {
 
         buttonNext.setOnClickListener {
 
+            gameContinue()
+
+            editTextAnswer.setText("") //to clear the answer of the editeText answer field when updating the question
 
         }
     }
